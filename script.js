@@ -27,5 +27,6 @@ strongTagsMattersAdded.forEach((strongTag, index) => {
   // Set the background position for the corresponding li element
   const liElement = strongTag.closest('li');
   liElement.style.backgroundPosition = `${backgroundPosition.toFixed(1)}vw 50%`;
+  console.log(backgroundPosition)
 });
 
